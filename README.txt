@@ -1,7 +1,7 @@
 Added a UCI implementation of sargon.lua: sargon_uci.lua
 UCI is still not fully implemented because of restrictions of the original Sargon code, especially the "postion FEN" commands.
 But for a straight forward game without taking back any moves it should work fine.
-Tested on picochess and in Shredder GUI.
+Tested with picochess on a DGT PI and in Shredder GUI.
 
 
 This is a small sample of Lua based chess to run from command line.
