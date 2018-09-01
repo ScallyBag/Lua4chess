@@ -1,6 +1,7 @@
 Added a UCI implementation of sargon.lua: sargon_uci.lua
 UCI is still not fully implemented because of restrictions of the original Sargon code, especially the "postion FEN" commands.
-But for a straight forward game without taking back any moves it should work fine.
+But for a straight forward game without taking back any moves more than 2 half moves it should work fine.
+No opening books should be used! 
 Tested with picochess on a DGT PI and in Shredder GUI.
 
 
