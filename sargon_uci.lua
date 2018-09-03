@@ -2639,7 +2639,7 @@ function UCI()
           --end
         end --for
 
-        num_move = num_move + tonumber(s[8]) / 2
+        num_move = ( num_move / 2 ) + tonumber(s[8])
         
         if (last_num_move >= num_move) then
         
